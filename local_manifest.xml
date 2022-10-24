@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="aehub"
+            fetch="https://github.com/aepranata/"
+            revision="android-13" />
+    <remote name="ashub"
+            fetch="ssh://git@github.com/aepranata/"
+            revision="twelve" />
+    <remote name="extrahub"
+            fetch="https://github.com/" />
+    <remote name="extralab"
+            fetch="https://gitlab.com/" />
+
+    <!-- Trees -->
+    <project path="device/xiaomi/rosy" name="device_rosy" remote="ashub" clone-depth="1" />
+    <project path="kernel/xiaomi/rosy" name="kernel_rosy" remote="ashub" clone-depth="1" />
+    <project path="vendor/xiaomi/rosy" name="vendor_rosy" remote="ashub" clone-depth="1" />
+    
+    <!-- Compiler -->
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="aehub" revision="master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/evagcc-arm64" name="Dhruvgera/EvaGCC-arm64" remote="extrahub" revision="master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/evagcc-arm" name="Dhruvgera/EvaGCC-arm" remote="extrahub" revision="master" clone-depth="1" />
+</manifest>
