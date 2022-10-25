@@ -17,6 +17,8 @@
     <project path="vendor/xiaomi/rosy" name="vendor_rosy" remote="ashub" clone-depth="1" />
     
     <!-- Compiler -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />
+    <!--<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />-->
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="silont-project/aarch64-elf-gcc" remote="extrahub" revision="arm64/11" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="silont-project/arm-eabi-gcc" remote="extrahub" revision="arm/11" clone-depth="1" />
 </manifest>
