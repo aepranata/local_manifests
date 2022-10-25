@@ -11,16 +11,18 @@
     <remote name="extralab"
             fetch="https://gitlab.com/" />
 
+    <!-- Remove -->
+    <remove-project name="android_vendor_banana" />
+
     <!-- Trees -->
     <project path="device/xiaomi/rosy" name="device_rosy" remote="ashub" clone-depth="1" />
     <project path="kernel/xiaomi/rosy" name="kernel_rosy" remote="ashub" clone-depth="1" />
     <project path="vendor/xiaomi/rosy" name="vendor_rosy" remote="ashub" clone-depth="1" />
     
     <!-- Compiler -->
-    <!--<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="silont-project/aarch64-elf-gcc" remote="extrahub" revision="arm64/11" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="silont-project/arm-eabi-gcc" remote="extrahub" revision="arm/11" clone-depth="1" />-->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="extrahub" revision="gcc-master" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="extrahub" revision="gcc-master" clone-depth="1" />
+    
+    <!-- Extra -->
+    <project path="vendor/banana" name="vendor_banana" remote="aehub" revision="12" clone-depth="1" />
 </manifest>
