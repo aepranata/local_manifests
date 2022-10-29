@@ -13,10 +13,11 @@
 
     <!-- Remove -->
     <remove-project name="android_vendor_banana" />
+    <remove-project name="platform/packages/apps/DocumentsUI" />
 
     <!-- Trees -->
     <project path="device/xiaomi/rosy" name="device_rosy" remote="ashub" clone-depth="1" />
-    <project path="kernel/xiaomi/rosy" name="kernel_rosy" remote="ashub" revision="kuro" clone-depth="1" />
+    <project path="kernel/xiaomi/rosy" name="kernel_rosy" remote="ashub" revision="62295da9866db28820cf47ce34a52a7e90269b73" clone-depth="1" />
     <project path="vendor/xiaomi/rosy" name="vendor_rosy" remote="ashub" clone-depth="1" />
     
     <!-- Compiler -->
@@ -24,5 +25,6 @@
     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />
     
     <!-- Extra -->
+    <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aehub" revision="twelve" clone-depth="1" />
     <project path="vendor/banana" name="vendor_banana" remote="aehub" revision="12" clone-depth="1" />
 </manifest>
