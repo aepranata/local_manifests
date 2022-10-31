@@ -17,7 +17,7 @@
 
     <!-- Trees -->
     <project path="device/xiaomi/rosy" name="device_rosy" remote="ashub" clone-depth="1" />
-    <project path="kernel/xiaomi/rosy" name="kernel_rosy" remote="ashub" revision="62295da9866db28820cf47ce34a52a7e90269b73" clone-depth="1" />
+    <project path="kernel/xiaomi/rosy" name="kernel_rosy" remote="ashub" revision="edb134aa2bb3498e66b537ab560d812d9691d1ec" clone-depth="1" />
     <project path="vendor/xiaomi/rosy" name="vendor_rosy" remote="ashub" clone-depth="1" />
     
     <!-- Compiler -->
