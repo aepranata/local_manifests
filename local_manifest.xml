@@ -27,5 +27,5 @@
     
     <!-- Extra -->
     <!--<project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aehub" revision="twelve" clone-depth="1" />-->
-    <project path="vendor/banana" name="vendor_banana" remote="aehub" revision="12" clone-depth="1" />
+    <project path="vendor/banana" name="vendor_banana" remote="aehub" revision="13" clone-depth="1" />
 </manifest>
