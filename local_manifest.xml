@@ -21,9 +21,9 @@
     <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="ashub" clone-depth="1" />
     
     <!-- Compiler -->
-    <!--<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />-->
-    <project path="prebuilts/clang/host/host/linux-x86/clang-proton" name="proton-clang" remote="aehub" revision="master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />
+    <!--<project path="prebuilts/clang/host/host/linux-x86/clang-proton" name="proton-clang" remote="aehub" revision="master" clone-depth="1" />-->
     
     <!-- Extra -->
     <!--<project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aehub" revision="twelve" clone-depth="1" />-->
