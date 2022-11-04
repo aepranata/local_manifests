@@ -13,18 +13,19 @@
 
     <!-- Remove -->
     <remove-project name="android_vendor_banana" />
-    <remove-project name="platform/packages/apps/DocumentsUI" />
+    <!--<remove-project name="platform/packages/apps/DocumentsUI" />-->
 
     <!-- Trees -->
-    <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="ashub" revision="banana/twelve" clone-depth="1" />
-    <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="ashub" revision="edb134aa2bb3498e66b537ab560d812d9691d1ec" clone-depth="1" />
+    <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="ashub" revision="banana/thirteen" clone-depth="1" />
+    <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="ashub" revision="52f770885b760b6a79f012fde87c18e4f734d30a" clone-depth="1" />
     <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="ashub" clone-depth="1" />
     
     <!-- Compiler -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />
+    <!--<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />-->
+    <project path="prebuilts/clang/host/host/linux-x86/clang-proton" name="proton-clang" remote="aehub" revision="master" clone-depth="1" />
     
     <!-- Extra -->
-    <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aehub" revision="twelve" clone-depth="1" />
+    <!--<project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aehub" revision="twelve" clone-depth="1" />-->
     <project path="vendor/banana" name="vendor_banana" remote="aehub" revision="12" clone-depth="1" />
 </manifest>
