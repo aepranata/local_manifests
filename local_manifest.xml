@@ -6,6 +6,12 @@
     <remote name="ashub"
             fetch="ssh://git@github.com/aepranata/"
             revision="thirteen" />
+    <remote name="aelab"
+            fetch="https://gitlab.com/aepranata/"
+            revision="thirteen" />
+    <remote name="aslab"
+            fetch="ssh://git@gitlab.com/aepranata/"
+            revision="thirteen" />
     <remote name="extrahub"
             fetch="https://github.com/" />
     <remote name="extralab"
@@ -21,8 +27,9 @@
     <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="aehub" clone-depth="1" />
     
     <!-- Compiler -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />
+    <!--<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />-->
+    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="atiga-clang" remote="aelab" revision="master" clone-depth="1" />
     
     <!-- Extra -->
     <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="aehub" revision="lineage-20.0" clone-depth="1" />
