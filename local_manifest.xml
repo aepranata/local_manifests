@@ -23,7 +23,7 @@
 
     <!-- Trees -->
     <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="aehub" revision="ricedroid/thirteen" clone-depth="1" />
-    <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="aehub" revision="62295da9866db28820cf47ce34a52a7e90269b73" clone-depth="1" />
+    <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="aehub" revision="shiro" clone-depth="1" />
     <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="aehub" clone-depth="1" />
     
     <!-- Compiler -->
