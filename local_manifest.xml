@@ -22,12 +22,12 @@
 
     <!-- Remove -->
     <remove-project name="crdroidandroid/android_packages_apps_Messaging" />
-    <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
+    <!--<remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />-->
 
     <!-- Trees -->
-    <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="ceer" clone-depth="1" />
+    <!--<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="ceer" clone-depth="1" />
     <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="ceer" clone-depth="1" />
-    <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="aehub" clone-depth="1" />
+    <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="aehub" clone-depth="1" />-->
     
     <!-- Compiler -->
     <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="atiga-clang" remote="aelab" revision="master" clone-depth="1" />
@@ -35,7 +35,7 @@
     
     <!-- Extra -->
     <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="aehub" />
-    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="aehub" revision="lineage-18.1" clone-depth="1" />
+    <!--<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="aehub" revision="lineage-18.1" clone-depth="1" />
     <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="aehub" revision="lineage-18.1" clone-depth="1" />
-    <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="aehub" revision="lineage-18.1" clone-depth="1" />
+    <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="aehub" revision="lineage-18.1" clone-depth="1" />-->
 </manifest>
