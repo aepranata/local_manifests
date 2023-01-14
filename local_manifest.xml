@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="aehub"
+            fetch="https://github.com/aepranata/"
+            revision="thirteen" />
+    <remote name="ashub"
+            fetch="ssh://git@github.com/aepranata/"
+            revision="thirteen" />
+    <remote name="aelab"
+            fetch="https://gitlab.com/aepranata/"
+            revision="thirteen" />
+    <remote name="aslab"
+            fetch="ssh://git@gitlab.com/aepranata/"
+            revision="thirteen" />
+    <remote name="extrahub"
+            fetch="https://github.com/" />
+    <remote name="extralab"
+            fetch="https://gitlab.com/" />
+    <remote name="ceer"
+            fetch="https://github.com/crdroidandroid/"
+            revision="13.0" />
+
+    <!-- Remove -->
+    <!--<remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />-->
+
+    <!-- Trees -->
+    <!--<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="ceer" clone-depth="1" />
+    <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="ceer" clone-depth="1" />
+    <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="aehub" clone-depth="1" />-->
+    
+    <!-- Compiler -->
+    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="atiga-clang" remote="aelab" revision="master" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="extralab" revision="master" clone-depth="1" />
+    
+    <!-- Extra -->
+    <!--<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="aehub" revision="lineage-18.1" clone-depth="1" />
+    <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="aehub" revision="lineage-18.1" clone-depth="1" />
+    <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="aehub" revision="lineage-18.1" clone-depth="1" />-->
+</manifest>
