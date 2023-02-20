@@ -18,8 +18,8 @@
             fetch="https://gitlab.com/" />
 
     <!-- Remove -->
-    <!--<remove-project name="RiceDroid/android_vendor_RiceDroidOTA" />-->
     <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
+    <remove-project name="dlwlrma123/vendor_google_pixel" />
 
     <!-- Trees -->
     <!--<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="aehub" revision="ricedroid/thirteen" clone-depth="1" />
@@ -27,13 +27,10 @@
     <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="aehub" clone-depth="1" />-->
     
     <!-- Compiler -->
-    <!--<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="aehub" revision="gcc-master" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="aehub" revision="gcc-master" clone-depth="1" />-->
     <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="atiga-clang" remote="aelab" revision="16.x" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="extralab" revision="master" clone-depth="1" />
     
     <!-- Extra -->
-    <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="aehub" revision="lineage-20.0" clone-depth="1" />
-    <!--<project path="vendor/riceOTA" name="android_vendor_RiceDroidOTA" remote="aehub" revision="thirteen" clone-depth="1" />-->
     <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aehub" revision="13.0" clone-depth="1" />
+    <project path="vendor/gms" name="vendor_google_pixel" remote="aelab" revision="thirteen" clone-depth="1" />
 </manifest>
