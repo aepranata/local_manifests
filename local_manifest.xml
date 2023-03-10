@@ -24,7 +24,7 @@
     <!--<remove-project name="android_packages_apps_Launcher3" />-->
 
     <!-- Trees -->
-    <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="pisang" clone-depth="1" />
+    <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="pisang" clone-depth="1" revision="13-stagging" />
     <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="pisang" clone-depth="1" />
     <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="pisang" clone-depth="1" />
     
