@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="aehub"
+            fetch="https://github.com/aepranata/"
+            revision="thirteen" />
+    <remote name="ashub"
+            fetch="ssh://git@github.com/aepranata/"
+            revision="thirteen" />
+    <remote name="aelab"
+            fetch="https://gitlab.com/aepranata/"
+            revision="thirteen" />
+    <remote name="aslab"
+            fetch="ssh://git@gitlab.com/aepranata/"
+            revision="thirteen" />
+    <remote name="extrahub"
+            fetch="https://github.com/" />
+    <remote name="extralab"
+            fetch="https://gitlab.com/" />
+
+    <!-- Remove -->
+
+    <!-- Trees -->
+    <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="aehub" revision="lineage-17.1" clone-depth="1" />
+    <project path="kernel/xiaomi/rosy" name="bananadroid-devices/android_kernel_xiaomi_rosy" remote="aehub" revision="13" clone-depth="1" />
+    <project path="vendor/xiaomi/rosy" name="baunilla/android_vendor_xiaomi_rosy" remote="aehub" revision="lineage-17.1" clone-depth="1" />
+    
+    <!-- Compiler -->
+    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="atiga-clang" remote="aelab" revision="16.x" clone-depth="1" />
+    
+    <!-- Extra -->
+</manifest>
