@@ -8,9 +8,7 @@
             revision="atiga-1.0-beta" />
 
     <!-- Remove -->
-    <!--<remove-project name="strongreasons/android_build" />
-    <remove-project name="strongreasons/android_packages_apps_Settings" />
-    <remove-project name="Kneba/android_hardware_qcom_audio" />-->
+    <remove-project name="LineageOS/android_packages_apps_LineageParts" />
 
     <!-- Trees -->
     <project path="device/xiaomi/rosy" name="aepranata/atiga_device_xiaomi_rosy" remote="aehub" clone-depth="1" />
@@ -21,15 +19,5 @@
     <!--<project path="prebuilts/clang/host/linux-x86/clang-atiga" name="atiga-clang" remote="aelab" revision="16.x" clone-depth="1" />-->
     
     <!-- Extra -->
-    <!--<project path="build/make" name="Atiga/android_build" remote="aelab" clone-depth="1" >
-        <copyfile src="core/root.mk" dest="Makefile" />
-        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-        <linkfile src="core" dest="build/core" />
-        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-        <linkfile src="target" dest="build/target" />
-        <linkfile src="tools" dest="build/tools" />
-    </project>
-    <project path="packages/apps/Settings" name="Atiga/android_packages_apps_Settings" remote="aelab" clone-depth="1" />
-    <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aehub" revision="lineage-17.1-caf-msm8998" />-->
+    <project path="packages/apps/LineageParts" name="Atiga/android_packages_apps_LineageParts" remove="aelab" clone-depth="1" />
 </manifest>
