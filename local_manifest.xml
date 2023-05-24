@@ -15,6 +15,7 @@
     <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
     <remove-project name="LineageOS/android_packages_apps_LineageParts" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
+    <remove-project name="LineageOS/android_lineage-sdk" />
 
     <!-- Trees -->
     <project path="device/xiaomi/rosy" name="aepranata/atiga_device_xiaomi_rosy" remote="aehub" clone-depth="1" />
@@ -37,6 +38,7 @@
     <project path="frameworks/base" name="Atiga/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aelab" clone-depth="1" />
     <project path="frameworks/native" name="Atiga/android_frameworks_native" groups="pdk" remote="aelab" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8998/audio" name="Atiga/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="atiga-1.0-caf-msm8998" remote="aelab" clone-depth="1" />
+    <project path="lineage-sdk" name="Atiga/android_lineage-sdk" remote="aelab" clone-depth="1" />
     <project path="packages/apps/DocumentsUI" name="Atiga/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aelab" clone-depth="1" />
     <project path="packages/apps/LineageParts" name="Atiga/android_packages_apps_LineageParts" remote="aelab" clone-depth="1" />
     <project path="packages/apps/Settings" name="Atiga/android_packages_apps_Settings" groups="pdk-fs" remote="aelab" clone-depth="1" />
