@@ -22,7 +22,7 @@
     <project path="vendor/xiaomi/rosy" name="aepranata/atiga_vendor_xiaomi_rosy" remote="aehub" clone-depth="1" />
     
     <!-- Compiler -->
-    <!--<project path="prebuilts/clang/host/linux-x86/clang-atiga" name="atiga-clang" remote="aelab" revision="16.x" clone-depth="1" />-->
+    <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="atiga-clang" remote="aelab" revision="13.x" clone-depth="1" />
     
     <!-- Extra -->
     <project path="build/make" name="Atiga/android_build" groups="pdk" remote="aelab" clone-depth="1">
