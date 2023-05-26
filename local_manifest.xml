@@ -16,6 +16,7 @@
     <remove-project name="LineageOS/android_packages_apps_LineageParts" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <remove-project name="LineageOS/android_lineage-sdk" />
+    <remove-project name="LineageOS/android_system_core" />
 
     <!-- Trees -->
     <project path="device/xiaomi/rosy" name="aepranata/atiga_device_xiaomi_rosy" remote="aehub" clone-depth="1" />
@@ -42,4 +43,5 @@
     <project path="packages/apps/DocumentsUI" name="Atiga/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aelab" clone-depth="1" />
     <project path="packages/apps/LineageParts" name="Atiga/android_packages_apps_LineageParts" remote="aelab" clone-depth="1" />
     <project path="packages/apps/Settings" name="Atiga/android_packages_apps_Settings" groups="pdk-fs" remote="aelab" clone-depth="1" />
+    <project path="system/core" name="LineageOS/android_system_core" groups="pdk" remote="aelab" clone-depth="1" />
 </manifest>
