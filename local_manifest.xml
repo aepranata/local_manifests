@@ -19,7 +19,7 @@
     <remove-project name="LineageOS/android_system_core" />
 
     <!-- Trees -->
-    <project path="device/xiaomi/rosy" name="aepranata/atiga_device_xiaomi_rosy" remote="aehub" clone-depth="1" />
+    <project path="device/xiaomi/rosy" name="aepranata/atiga_device_xiaomi_rosy" remote="aehub" revision="atiga-1.0-proton" clone-depth="1" />
     <project path="kernel/xiaomi/rosy" name="aepranata/atiga_kernel_xiaomi_rosy" remote="aehub" clone-depth="1" />
     <project path="vendor/xiaomi/rosy" name="aepranata/atiga_vendor_xiaomi_rosy" remote="aehub" clone-depth="1" />
     
