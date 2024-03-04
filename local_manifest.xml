@@ -15,7 +15,7 @@
 
     <!-- Trees -->
     <project path="device/xiaomi/rosy" name="aepranata/device_xiaomi_rosy" remote="aehub" clone-depth="1" />
-    <project path="kernel/xiaomi/rosy" name="aepranata/kernel_xiaomi_rosy" remote="aehub" clone-depth="1" />
+    <project path="kernel/xiaomi/rosy" name="aepranata/kernel_xiaomi_rosy" remote="aehub" clone-depth="1" sync-s="true" />
     <project path="vendor/xiaomi/rosy" name="aepranata/vendor_xiaomi_rosy" remote="aehub" clone-depth="1" />
 
     <!-- Compiler -->
